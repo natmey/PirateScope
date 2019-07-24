@@ -9,11 +9,10 @@ System Requirements
 -------------------
 
 Operating System:
-- PirateScope has been tested under Debian GNU/Linux and OS X Snow
-  Leopard.
+- PirateScope has been tested under Debian GNU/Linux.
 
 Software:
-- Python 2.x (http://www.python.org/)
+- Python 3.x (http://www.python.org/)
 - wxPython 2.8 or later (http://www.wxpython.org/)
 - numpy (http://www.numpy.org/)
 
@@ -25,7 +24,8 @@ Installation
 ------------
 
 Under Debian, the software dependencies can be met simply by
-installing the necessary packages using apt.
+installing the necessary packages using apt (`python3`,
+`python3-numpy`, `python-wxgtk3.0`).
 
 Under OS X the process is slightly more involved, but Github
 user @granitepenguin has generously provided detailed
