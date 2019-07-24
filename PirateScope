@@ -257,7 +257,7 @@ class MainWindow(wx.Frame):
 	def __init__(self, parent, title):
 
 		# Call standard frame constructor:
-		wx.Frame.__init__(self, parent, title=title, id=wx.ID_ANY, size=(640,480))
+		wx.Frame.__init__(self, parent, title=title, id=wx.ID_ANY, size=(700,525))
 
 		# Add status bar:
 		self.CreateStatusBar()
